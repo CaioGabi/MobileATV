@@ -1,29 +1,27 @@
-# Welcome to your Expo app 👋
+# Bem vindo ao nosso expo APP 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Para começar
+1. Copie o seguinte código no terminal para criar seu aplicativo:
+```bash
+npx create-expo-app@latest
+```
 
-## Get started
+3. Configure o seu aplicativo com as intruções do sistema, dando um nome e confirmando a criação do app.
 
-1. Install dependencies
+4. Abra o aplicativo android studio e inicialize o celular virtual. Caso queira testar em um celular físico ignore essa etapa.
 
-   ```bash
-   npm install
-   ```
+5. Abra a pasta de seu projeto e execute o código abaixo. Isso deve ser feito para instalar as dependências do seu aplicativo mobile no celular virtual.
+```bash
+npm run android
+```
+6. Por fim, pressione a tecla "a" em seu terminal para iniciar o android e rodar seu projeto no celular virtual. Caso queira fazer em um celular físico, abra o qr code que será exibido na tela do terminal.
 
-2. Start the app
+## Feito por
+Caio Gabriel Ramalho de Carvalho
 
-   ```bash
-    npx expo start
-   ```
+João Paulo Ferreira de Azevedo
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+# Informações dos DEV do EXPO
 
 ## Get a fresh project
 
@@ -48,8 +46,3 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-
-## Feito por
-Caio Gabriel Ramalho de Carvalho
-
-João Paulo Ferreira de Azevedo
